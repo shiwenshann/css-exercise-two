@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
 }
 
 nav {
@@ -8,6 +8,7 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -16,16 +17,17 @@ nav {
 }
 
 .large-pic {
-  width: 100%;
+  width: 80%;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 50%;
+  padding-top: 88px;
 }
 
 .left, .right {
   float: left;
-  width: 50%;
+  width: 52%;
 }
 
 .right {
@@ -49,4 +51,34 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: orange;
+}
+
+figcaption{
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+h1{
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+h3{
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+
+.author{
+  font-style: italic;
+}
+
+p{
+  padding-bottom: 10px;
 }
